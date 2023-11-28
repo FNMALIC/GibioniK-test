@@ -12,6 +12,13 @@
 :root {
   scroll-behavior: smooth;
 }
+.counter-percent {
+  padding-right: 5px;
+}
+
+.counter-percent::after {
+  content: '%';
+}
 
 body {
   font-family: "Open Sans", sans-serif;
