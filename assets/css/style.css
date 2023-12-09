@@ -20,6 +20,15 @@
   content: '%';
 }
 
+
+.plus-symbol {
+  padding-right: 5px;
+}
+
+.plus-symbol::after {
+  content: '+';
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
