@@ -148,13 +148,20 @@
   transform: translateY(-50%);
 }
 .wizard-bar {
-  position: absolute;
+  /* position: absolute;
   background-color: #1e4dba;
   height: 2px;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  transition: 0.3s ease;
+  transition: 0.3s ease; */
+  position: absolute;
+    background-color: #1e4dba;
+    height: 2px;
+    top: 34%;
+    left: 13px;
+    transform: translateY(-50%);
+    transition: 0.3s ease;
 }
 .wizard-list {
   display: flex;
@@ -288,29 +295,42 @@
         </ul>
     </div>
     <div class="form-content" data-form-tab>
-        <h1>Test stage 1</h1>
-        <div class="form-item" data-form-item>
+        <h1>Location</h1>
+        <!-- <div class="form-item" data-form-item>
             <label for="input4" class="form-label">Label first</label>
             <input class="form-input" data-form-input id="input4" type="text" placeholder="Enter text">
-        </div>
+        </div> -->
+        <p>
+          Our specialist can comm to collect labs at any location you choose . including home and office
+        </p>
         <div class="form-item" data-form-item>
-            <label for="input1" class="form-label">Label first</label>
-            <input class="form-input" data-form-input id="input1" type="text" placeholder="Enter text">
-        </div>
-    </div>
-    <div class="form-content" data-form-tab>
-        <h1>Test stage 2 </h1>
-        <div class="form-item" data-form-item>
-            <label for="input2" class="form-label">Label second</label>
-            <input class="form-input" data-form-input id="input2" type="text" placeholder="Enter text">
+            <!-- <label for="input1" class="form-label">Label first</label> -->
+            <input class="form-input form-control" data-form-input id="input1" type="text" placeholder="Enter full address  ">
         </div>
     </div>
     <div class="form-content" data-form-tab>
-        <h1>Test stage 3</h1>
+        <h1>Time</h1>
+        <p>
+         The Specialist arrives during the time window you select and will be in and out in about 10 minutes
+        </p>
         <div class="form-item" data-form-item>
+            <label for="input2" class="form-label">Select Date</label>
+            <input class="form-input" data-form-input id="input2" type="date">
+        </div>
+        <div class="form-item" data-form-item>
+          <label for="input2" class="form-label">Select time</label>
+          <input class="form-input" data-form-input id="input2" type="time" >
+      </div>
+    </div>
+    <div class="form-content" data-form-tab>
+        <h1>Accept terms and conditions</h1>
+        <!-- <div class="form-item" data-form-item>
             <label for="input3" class="form-label">Label third</label>
             <input class="form-input" data-form-input id="input3" type="text" placeholder="Enter text">
-        </div>
+        </div> -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa incidunt nemo adipisci vero qui perferendis, pariatur suscipit molestias! Esse asperiores et expedita quaerat reiciendis excepturi iusto sit ullam deserunt.
+        </p>
     </div>
     <div class="form-buttons">
         <button class="btn bordered" type="button" data-btn-previous="true">Return</button>
