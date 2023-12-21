@@ -691,7 +691,7 @@ section {
 }
 
 .values .box img {
-  padding: 30px 50px;
+  padding: 34px 6px;
   transition: 0.5s;
   transform: scale(1.1);
 }
